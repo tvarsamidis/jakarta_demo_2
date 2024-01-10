@@ -8,5 +8,16 @@
     <artifactId>jakarta_demo_2</artifactId>
     <version>1.0-SNAPSHOT</version>
 
-    
+    <properties>
+        <maven.compiler.source>21</maven.compiler.source>
+        <maven.compiler.target>21</maven.compiler.target>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+
+        <!-- Desired Maven version
+        <target.maven>3.8</target.maven> -->
+        <!-- Maven source encoding -->
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+    </properties>
+
 </project>
