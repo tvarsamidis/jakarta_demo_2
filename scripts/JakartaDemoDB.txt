@@ -1,0 +1,28 @@
+CREATE DATABASE JakartaDemoDB
+GO
+
+USE JakartaDemoDB
+GO
+
+-- Create the Employee table
+CREATE TABLE Employee (
+    EmployeeID INT PRIMARY KEY,
+    FirstName NVARCHAR(50),
+    LastName NVARCHAR(50),
+    Age INT,
+    Department NVARCHAR(50),
+	DateOfHire DATE
+);
+
+INSERT INTO Employee (EmployeeID, FirstName, LastName, Age, Department, DateOfHire)
+VALUES
+    (1, 'John', 'Doe', 30, 'IT', '2020-01-15'),
+    (2, 'Jane', 'Smith', 28, 'HR', '2019-07-22'),
+    (3, 'Robert', 'Johnson', 35, 'Finance', '2021-03-10'),
+    (4, 'Emily', 'Williams', 25, 'Marketing', '2022-05-05'),
+    (5, 'Michael', 'Brown', 32, 'IT', '2018-11-18'),
+    (6, 'Amanda', 'Jones', 29, 'HR', '2020-09-03'),
+    (7, 'Daniel', 'Taylor', 34, 'Finance', '2017-12-08'),
+    (8, 'Sarah', 'Anderson', 31, 'Marketing', '2019-04-30'),
+    (9, 'Chris', 'Clark', 27, 'IT', '2022-08-14'),
+    (10, 'Hannah', 'Miller', 33, 'HR', '2018-06-25');

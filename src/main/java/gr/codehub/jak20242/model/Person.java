@@ -1,4 +1,4 @@
-package gr.codehub.jak20242;
+package gr.codehub.jak20242.model;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

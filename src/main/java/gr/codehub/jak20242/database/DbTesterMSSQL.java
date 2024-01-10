@@ -34,6 +34,7 @@ public class DbTesterMSSQL {
         }
     }
 
+
     private static void showResultData(ResultSet rs) throws SQLException {
         System.out.println(rs.getString("FirstName") + " "
                 + rs.getString("LastName") + " "
