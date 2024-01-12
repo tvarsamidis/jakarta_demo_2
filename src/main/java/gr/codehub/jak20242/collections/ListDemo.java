@@ -108,8 +108,8 @@ public class ListDemo {
 		}
 		logger.info("{}.", list);
 
-		List<String> anotherList = Collections.emptyList();
-		logger.info("List: {}.", anotherList);
+		List<String> referenceList = Collections.emptyList();
+		logger.info("List: {}.", referenceList);
 		// Will generate an error as this is immutable
 		// anotherList.add("Item 1");
 		//logger.info("List: " + anotherList);
