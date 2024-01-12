@@ -19,7 +19,7 @@ public class EmployeeApp {
 //        System.out.println(developer.getName() + " is " + developer.getAge() + " years old");
 
 
-        System.out.println(developer);
+        System.out.println(developer.toString());
 
 
     }
